@@ -1549,7 +1549,21 @@ blockquote {
       font-family: 'Montserrat', 'Nanum Pen Script';
       font-weight: 300;
     }
-    
+
+    .col-md-12 {
+      height: 27vw;
+      /* border: 2px solid red; */
+      margin-bottom: 2rem;
+    }
+      .container{
+    height: 100%
+      }
+    .front{
+      height: 100%
+    }
+  .back{
+    height: 100%
+  }
     @media screen and (max-width: 64rem){
       .col{
         width: calc(33.333333% - 2rem);
